@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-various.pretty")(options "")(descr ""))
+  (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/custom")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/espressif/footprints/Espressif.pretty")(options "")(descr ""))
+)

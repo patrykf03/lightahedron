@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -94,7 +94,7 @@
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
-        "unresolved_variable": "error",
+        "unresolved_variable": "warning",
         "via_dangling": "warning",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
@@ -120,8 +120,10 @@
       },
       "track_widths": [
         0.0,
+        0.2,
         0.25,
-        0.5
+        0.6,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -355,7 +357,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -382,7 +384,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "panel.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
